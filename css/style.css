@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 300px;
+    margin: 50px auto;
+    padding: 40px 40px 15px 40px;
+    background-color: #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent .overl {
+    text-align: center;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+.parent .overl:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.parent .overl:hover .text  {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+.parent .overl:hover .img img,
+.parent .overl:hover .img::before {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.parent .overl .img {
+    width: 100%;
+    position: relative;
+}
+
+.parent .overl .img img {
+    width: 100%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.parent .overl .img::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 1%;
+    width: 0%;
+    background-color: #6ec6bc88;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+/* start text */
+.parent .overl .text {
+    position: relative;
+    top: -20px;
+    background-color: #fefefc;
+    padding: 10px 5px;
+    width: 70%;
+    left: 50%;
+    transition: .6s;
+    transform: translateX(-50%);
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.parent .overl .text h2 {
+    margin-bottom: 5px;
+    color: #060608;
+}
+
+.parent .overl .text p {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
